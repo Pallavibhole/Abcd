@@ -19,8 +19,8 @@ var mydb;
 */
 app.post("/api/visitors", function (request, response) {
   var customerId = request.body.customerId;
-  Var productId;
-  Var Date;
+  //Var productId = request.body.productId;
+  //Var Date;
   if(!mydb) {
     console.log("No database.");
     response.send("Hello " + customerId + "!");
