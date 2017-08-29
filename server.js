@@ -28,7 +28,7 @@ app.post("/api/visitors", function (request, response) {
     return;
   }
   // insert the CustomerId as a document
-  mydb.insert({ "customerId" : customerId ,"productId" : productId, "Date" : Date}, function(err, body, header) {
+  mydb.insert({ "customerId" : customerId}, function(err, body, header) {
     if (err) {
       return console.log('[mydb.insert] ', err.message);
     }
