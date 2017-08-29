@@ -3,7 +3,7 @@
     "cloudantNoSQLDB": [
       {
         "credentials": {
-          "url":"CLOUDANT_DATABASE_URL"
+          "url":"https://bb2f3f2e-7c99-455b-aaaa-2aff8cb32bb5-bluemix:662bbc85cae5512e88c8d96a64eb9d74ac93a0b49f9954d5c5f795126570b619@bb2f3f2e-7c99-455b-aaaa-2aff8cb32bb5-bluemix.cloudant.com"
         },
         "label": "cloudantNoSQLDB"
       }
